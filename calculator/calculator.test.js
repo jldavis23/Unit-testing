@@ -2,6 +2,8 @@ const sum = require('./calculator');
 const subtract = require('./calculator');
 const multiply = require('./calculator');
 const divide = require('./calculator');
+const squared = require('./calculator');
+const factorial = require('./calculator');
 
 //SUM
 test('adds 1 + 2 to equal 3', () => {
