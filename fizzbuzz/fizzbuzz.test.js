@@ -1,4 +1,4 @@
-//require the function
+const fizzbuzz = require('./fizzbuzz');
 
 test('a multiple of 3 gives you fizz', () => {
     expect(fizzbuzz(3)).toStrictEqual([1, 2, 'fizz']);
