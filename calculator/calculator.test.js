@@ -38,3 +38,21 @@ test('divides 10 / 2 to equal 5', () => {
 test('divides 16 / 8 to equal 2', () => {
     expect(divide.divide(16, 8)).toBe(2);
 })
+
+//SQUARED
+test('2 squared is equal to 4', () => {
+    expect(squared.squared(2)).toBe(4);
+});
+
+test('15 squared is equal to 225', () => {
+    expect(squared.squared(15)).toBe(225);
+});
+
+//FACTORIAL
+test('2! is equal to 2', () => {
+    expect(factorial.factorial(2)).toBe(2);
+});
+
+test('10! is equal to 3,628,800', () => {
+    expect(factorial.factorial(10)).toBe(3628800);
+});
