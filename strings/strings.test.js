@@ -1,4 +1,6 @@
-//require
+const reverse = require('./strings');
+const uppercase = require('./strings');
+const noVowels = require('./strings');
 
 //REVERSE
 test('Hello changes to olleH', () => {
@@ -11,11 +13,11 @@ test('Hi Bob changes to boB iH', () => {
 
 //UPPERCASE
 test('popcorn changes to POPCORN', () => {
-    expect(toUppercase.toUppercase('popcorn')).toStrictEqual('POPCORN');
+    expect(uppercase.uppercase('popcorn')).toStrictEqual('POPCORN');
 });
 
 test('Hello there changes to HELLO THERE', () => {
-    expect(toUppercase.toUppercase('Hello there')).toStrictEqual('HELLO THERE');
+    expect(uppercase.uppercase('Hello there')).toStrictEqual('HELLO THERE');
 });
 
 //NO VOWELS
