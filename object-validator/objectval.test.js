@@ -1,4 +1,4 @@
-//require
+const objectVal = require('./objectval');
 
 test('price is a key of the object', () => {
     expect(objectVal({price: 30}, 'price')).toBe(true);
