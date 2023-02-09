@@ -11,3 +11,7 @@ test('price is a key of an object with many keys', () => {
 test('price is not a key of the object', () => {
     expect(objectVal({id: 1, value: 70}, 'price')).toBe(false);
 })
+
+test('return type should be boolean', () => {
+    expect(typeof objectVal({id: 1, value: 70}, 'price')).toStrictEqual('boolean');
+})

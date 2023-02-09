@@ -11,3 +11,7 @@ test('a multiple of 5 gives you buzz', () => {
 test('multiples of 3 and 5 gives you fizzbuzz', () => {
     expect(fizzbuzz(15)).toStrictEqual([1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 13, 14, 'fizzbuzz']);
 });
+
+test('return value should be an array', () => {
+    expect(typeof fizzbuzz(15)).toStrictEqual('object');
+});
